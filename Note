@@ -1,0 +1,26 @@
+## La definition de la navigation entre pages par url passe par les elements de route "BrowserRouter", "Routes", "Route" de react-router-dom"
+
+    - BrowserRouter : Il englobe toute le site et les chemin de la navigation a l'interieur
+    - Routes : Il permet de liste les differentes chemin de navigation
+    - Route : Permet de specifier un chemin de navigation via les attributs "path" et "element"
+
+NB : Ces elements viennent des dependances a incorporer dans le projet via : "npm i react-router-dom sass"
+
+## Pour la definition des liens de navigation sur le site, on se sert d'un composant "Navigation".
+
+Ce dernier fait office de navbar qu'on appelera pour affichage
+Il exploite l'elements "NavLink" de "react-router-dom"
+
+## L'utilisation de NavLink pour gere la navigation permet de definir des SPA (Single Page Application) qui sont des sites avec des pages sans temps de chargement sur le site lors de la navigation
+
+## l'utilisation de la className "nav-active" a permit l'interaction pour l'indication de la page ou l'on se trouves
+
+## Les images importees dans la balise IMG prennent leur source dans le repertoire "public"
+
+Les chemins d'acces sont alors definies comme si le fichier ou elles sont appelees etait dans le dossier "public"
+
+## Axios est une technologies permettant de faire des "fetch" (recuperer des donnees a une API)
+
+## Un "useEffet" se joue lorque le composant est montee (appele pour etre mis en place)
+
+## "object-fit: cover;" sert a definir une img pour couvrir l'ensemble du cadran reserve
